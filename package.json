@@ -1,0 +1,22 @@
+{
+  "name": "p5-and-parcel",
+  "version": "1.0.0",
+  "description": "An environment set up to use p5.js with a parcel envrionment, allowing easily access to npm modules, and file seperation.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "p5": "0.10.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "p5.js",
+    "sandbox",
+    "parcel"
+  ]
+}
